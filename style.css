@@ -1,0 +1,69 @@
+      *{
+margin: 0%;
+padding: 0%;
+      }
+   
+      .container{
+        height: 100vh;
+   background: linear-gradient(165deg, #4203a9, darkcyan );
+   position: relative;
+      }
+      #main{
+        width: 30%;
+        height: 15vh;
+        background:rgba(255, 255, 255, .4);
+        border-radius: 8px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 120px;
+        top: 320px;
+
+      }
+      #date{
+        width: 230px;
+         padding: 9px;
+         font-size: 15px;
+         border-radius: 7px ;
+         overflow: hidden;
+         border: 0px;
+      }
+      #btn{
+        padding: 9px;
+        margin-left: 14px;
+        border-radius: 8px;
+        border: 0px;
+        background-color:rgb(247, 63, 7);
+        transition: 1s;
+      }
+      #btn:hover{
+        background-color: tomato;
+        color: white;
+      }
+      h1{
+       width: 330px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color: white;
+       font-size: 44px;
+       position: absolute;
+       top: 100px;
+       left: 120px;
+      }
+     .container h1 p{
+      color: rgb(252, 237, 108);
+     font-size: 50px;
+      }
+      .result {
+        color: rgb(252, 237, 108);
+        padding-top: 17px;
+      font-size: 40px;
+      position: absolute;
+      top: 420px;
+       left: 120px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .result span {
+        color: rgb(12, 12, 12);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
